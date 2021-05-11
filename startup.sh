@@ -37,6 +37,6 @@ echo "Starting cron loop"
 
 while :
 do
-	php /var/www/seat/artisan schedule:rune &
+	php /var/www/seat/artisan schedule:run &
 	sleep 60
 done
