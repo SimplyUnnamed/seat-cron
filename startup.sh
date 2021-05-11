@@ -35,7 +35,7 @@ chown -R www-data:www-data /var/www/seat
 
 echo "Starting cron loop"
 
-while:
+while :
 do
 	php /var/www/seat/artisan schedule:rune &
 	sleep 60
